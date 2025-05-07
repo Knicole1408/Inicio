@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcular Promedio</title>
+</head>
+<body>
+    <script>
+        let nota1 = parseFloat(prompt("Ingresa tu primera nota"));
+        let nota2 = parseFloat(prompt("Ingresa tu segunda nota"));
+        let nota3 = parseFloat(prompt("Ingresa tu tercera nota"));
+
+        let promedio = (nota1 + nota2 + nota3) / 3;
+
+        alert("Tu promedio es: " + promedio.toFixed(2));
+    </script>
+</body>
+</html>
