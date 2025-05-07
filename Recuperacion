@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recuperacion</title>
+</head>
+<body>
+    <script>
+        //Nombres
+        let nombre1 = (prompt("Ingresa el primer nombre"));
+        let nombre2 = (prompt("Ingresa el segundo nombre"));
+        let nombre3 = (prompt("Ingresa el tercer nombre"));
+        let nombre4 = (prompt("Ingresa el cuarto nombre"));
+        let nombre5 = (prompt("Ingresa el quinto nombre"));
+        let nombre6 = (prompt("Ingresa el sexto nombre"));
+        let nombre7 = (prompt("Ingresa el septimo nombre"));
+        let nombre8 = (prompt("Ingresa el octavo nombre"));
+        let nombre9 = (prompt("Ingresa el noveno nombre"));
+        let nombre10 = (prompt("Ingresa el decimo nombre"));
+
+        //Colorez
+
+        let color1 = (prompt("Ingresa el primer color"));
+        let color2 = (prompt("Ingresa el segundo color"));
+        let color3 = (prompt("Ingresa el tercer color"));
+        let color4 = (prompt("Ingresa el cuarto color"));
+        let color5 = (prompt("Ingresa el quinto color"));
+        let color6 = (prompt("Ingresa el sexto color"));
+        let color7 = (prompt("Ingresa el septimo color"));
+        let color8 = (prompt("Ingresa el octavo color"));
+        let color9 = (prompt("Ingresa el noveno color"));
+        let color10 = (prompt("Ingresa el decimo color"));
+      
+        //numeros
+        let numero1 = (prompt("Ingresa el primer numero"));
+        let numero2 = (prompt("Ingresa el segundo numero"));
+        let numero3 = (prompt("Ingresa el tercer numero"));
+        let numero4 = (prompt("Ingresa el cuarto numero"));
+        let numero5 = (prompt("Ingresa el quinto numero"));
+        let numero6 = (prompt("Ingresa el sexto numero"));
+        let numero7 = (prompt("Ingresa el septimo numero"));
+        let numero8 = (prompt("Ingresa el octavo numero"));
+        let numero9 = (prompt("Ingresa el noveno numero"));
+        let numero10 = (prompt("Ingresa el decimo numero"));
+
+        //Impresion de las variables
+        
+        document.write("El primer nombre es: " +  nombre1 + "   " + "El primer color es: " + color1 + "   " + "El primer color es: " + numero1 + "<br>");
+        document.write("El segundo nombre es: " +  nombre2 + "   " + "El segundi color es: " + color2 + "   " + "El segundo color es: " + numero2 + "<br>");
+        document.write("El tercer nombre es: " +  nombre3+ "   " + "El tercer color es: " + color3 + "   " + "El tercer color es: " + numero3 + "<br>");
+        document.write("El cuarto nombre es: " +  nombre4 + "   " + "El cuarto color es: " + color4 + "   " + "El cuarto color es: " + numero4 + "<br>");
+        document.write("El quinto nombre es: " +  nombre5 + "   " + "El quinto color es: " + color5 + "   " + "El quinto color es: " + numero5 + "<br>");
+        document.write("El sexto nombre es: " +  nombre6+ "   " + "El sexto color es: " + color6 + "   " + "El sexto color es: " + numero6 + "<br>");
+        document.write("El septimo nombre es: " +  nombre7 + "   " + "El septimo color es: " + color7 + "   " + "El septimo color es: " +numero7 + "<br>");
+        document.write("El octavo nombre es: " +  nombre8 + "   " + "El octavo color es: " + color8 + "   " + "El octavo color es: " + numero8 + "<br>");
+        document.write("El noveno nombre es: " +  nombre9 + "   " + "El noveno color es: " + color10 + "   " + "El noveno color es: " + numero9 + "<br>");
+        document.write("El decimo nombre es: " +  nombre10 + "   " + "El decimo color es: " + color1 + "   " + "El decimo color es: " + numero10 + "<br>");
+    </script>
+</body>
+</html>
