@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia</title>
+</head>
+<body>
+    <script>
+        // Desafio 1
+        console.log("Hola, mundo!")
+
+        // Desafio 2
+        let edad = 16;
+        console.log(edad);
+
+        // Desafio 3
+        let nombre = "Nicole";
+        let esEstudiante = true;
+
+        document.write("nombre: " + nombre + "<br>");
+        document.write("Es estudiante?: " + esEstudiante + "<br>") ;
+
+        // Desafio 4
+        let num1 = 5;
+        let num2 = 10;
+        console.log(num1 + num2);
+        console.log(num2 - num1);
+        console.log(num1 * num2);
+        console.log(num2 / num1);
+
+       let suma = num1 + num2;
+       let resta = num2 - num1;
+       let multiplicacion = num1 * num2;
+       let division = num2 / num1;
+
+        document.write("La suma del num1 y el num2 es: " + suma + "<br>");
+        document.write("La resta del num2 y el num1 es: " + resta + "<br>");
+        document.write("La multiplicacion del num1 y el num2 es: " + multiplicacion + "<br>");
+        document.write("La division del num2 y el num1 es: " + division + "<br>");
+
+        // Desafio 5
+        let edad1 = 20;
+        console.log(edad1 >= 18 && edad1 <= 25);
+
+        //Desafio 6
+        let edad2 = 17;
+        if (edad2 >= 18) {
+            console.log("Eres mayor de edad");
+        } else {
+            console.log("Eres menor de edad")
+        }
+
+        // Desafio 7
+        for (let i = 1; i <=5; i++) {
+            console.log(i);
+        }
+
+        // Desafio 8
+        function sumar(a, b) {
+            return a + b;
+        }
+        console.log(sumar(3, 4));
+
+        // Desafio 9
+        function saludar(nombre1) {
+            console.log("Hola, " + nombre1);
+        } 
+        saludar("Juan");
+
+        // Desafio 10
+        let numeros = [1, 2, 3];
+        console.log(numeros[1]);
+
+        // Desafio 11
+        let persona = {
+            nombre: "Juan",
+            edad: 25,
+            profesion: "Estudiante",
+        };
+
+        console.log(persona.nombre);
+        
+    </script>
+</body>
+</html>
