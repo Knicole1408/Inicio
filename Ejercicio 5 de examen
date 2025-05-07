@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bonus</title>
+</head>
+<body>
+    <script>
+       let color = prompt("Ingresa tu color favorito");
+       console.log("Que color mas genial es el " + color )
+    </script>
+</body>
+</html>
