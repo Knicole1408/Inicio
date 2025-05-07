@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica</title>
+</head>
+<body>
+    <script>
+        //Verificar edad y promedio//
+        // let nombre = prompt("¿Cuál es tu nombre?");
+        let edad = parseInt(prompt("¿Cuál es tu edad?"));
+
+        let nota1 = parseFloat(prompt("Ingresa tu primera nota"));
+        let nota2 = parseFloat(prompt("Ingresa tu segunda nota"));
+        let nota3 = parseFloat(prompt("Ingresa tu tercera nota"));
+
+        let promedio = (nota1 + nota2 + nota3) / 3;
+
+        if (promedio >= 6 && edad >= 18) {
+        alert(`${nombre}, estás aprobado y eres mayor de edad.`);
+        } else if (promedio >= 6) {
+        alert(`${nombre}, estás aprobado pero eres menor de edad.`);
+        } else if (edad >= 18) {
+        alert(`${nombre}, eres mayor de edad pero estás reprobado.`);
+        } else {
+        alert(`${nombre}, estás reprobado y eres menor de edad.`);
+        }
+
+        alert("Tu promedio es: " + promedio.toFixed(2));
+
+
+        //Contador personalizado//
+        let inicio = parseInt(prompt("Ingresa el número inicial"));
+        let fin = parseInt(prompt("Ingresa el número final"));
+
+        if (fin >= inicio) {
+        for (let i = inicio; i <= fin; i += 2) {
+         console.log(i);
+        }
+        } else {
+        alert("Rango no válido.");
+        }
+
+        //Calculadora con funciones//
+        function sumar(a, b) {
+        return a + b;
+        }
+        function restar(a, b) {
+        return a - b;
+        }
+        function multiplicar(a, b) {
+        return a * b;
+        }
+        function dividir(a, b) {
+        return b !== 0 ? a / b : "Error: división por cero";
+        }
+        function potencia(a, b) {
+        return a ** b;
+        }
+        function modulo(a, b) {
+        return a % b;
+        }
+  
+        function calcular(operacion) {
+        let num1 = parseFloat(prompt("Ingresa el primer número"));
+        let num2 = parseFloat(prompt("Ingresa el segundo número"));
+        let resultado;
+  
+    switch (operacion) {
+      case "sumar":
+        resultado = sumar(num1, num2);
+        break;
+      case "restar":
+        resultado = restar(num1, num2);
+        break;
+      case "multiplicar":
+        resultado = multiplicar(num1, num2);
+        break;
+      case "dividir":
+        resultado = dividir(num1, num2);
+        break;
+      case "potencia":
+        resultado = potencia(num1, num2);
+        break;
+      case "modulo":
+        resultado = modulo(num1, num2);
+        break;
+      default:
+        resultado = "Operación no válida";
+    }
+  
+    alert("Resultado: " + resultado);
+  }
+  
+  // Ejemplo de uso:
+  calcular("potencia"); // Cambiá por "sumar", "restar", etc.
+
+  //Adivina el numero//
+  let numeroSecreto = Math.floor(Math.random() * 10) + 1;
+let intentos = 3;
+
+while (intentos > 0) {
+  let intento = parseInt(prompt("Adivina el número (1 al 10):"));
+
+  if (intento === numeroSecreto) {
+    alert("¡Correcto!");
+    break;
+  } else {
+    intentos--;
+    if (intentos === 0) {
+      alert("Perdiste. El número era " + numeroSecreto);
+    } else if (intento < numeroSecreto) {
+      alert("El número es mayor. Te quedan " + intentos + " intentos.");
+    } else {
+      alert("El número es menor. Te quedan " + intentos + " intentos.");
+    }
+  }
+}
+
+//Objetos y arrays//
+let persona = {
+    nombre: "Camila",
+    edad: 16,
+    hobbies: ["leer", "dibujar", "escuchar música"]
+  };
+  
+  console.log(`A ${persona.nombre} le gusta ${persona.hobbies.join(", ")}.`);
+    </script>
+</body>
+</html>
